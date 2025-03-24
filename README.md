@@ -33,8 +33,7 @@ yarn start
 
 1. Open the application
 2. Click on "Generate New Wallet"
-3. Move your mouse around to add entropy (randomness)
-4. Save your wallet keyfile and backup your JWK securely
+3. Save your wallet keyfile
 
 ## Security Recommendations
 
