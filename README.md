@@ -4,7 +4,6 @@ A simple, secure tool for generating Arweave wallets offline. Create and manage 
 
 ## Features
 
-- **Offline Wallet Generation**: Create new Arweave wallets without an internet connection
 - **Security-First Design**: All cryptographic operations happen locally in your browser
 - **Export Options**: Save your wallet as JSON keyfile or paper backup
 - **Address Verification**: Verify your wallet address before using it
