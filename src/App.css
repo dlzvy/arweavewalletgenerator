@@ -1,0 +1,207 @@
+/* src/App.css */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  text-align: center;
+  color: #e0e0e0;
+  background-color: #121212;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.generate-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #444;
+}
+
+.generate-btn:hover {
+  background-color: #444;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.generate-btn:disabled {
+  background-color: #222;
+  color: #555;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+  border: 1px solid #333;
+}
+
+.wallet-info {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+}
+
+.address-container {
+  background-color: #242424;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #333;
+  margin: 1rem 0;
+  word-break: break-all;
+}
+
+.address {
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #33d6a6;
+}
+
+.phrase-container {
+  background-color: #242424;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #333;
+  margin: 1rem 0;
+  word-break: break-all;
+  position: relative;
+}
+
+.phrase {
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #ffd700;
+  letter-spacing: 1px;
+}
+
+.show-phrase-btn {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.show-phrase-btn:hover {
+  background-color: #444;
+}
+
+.download-btn {
+  background-color: #33d6a6;
+  color: #121212;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.download-btn:hover {
+  background-color: #40e0bc;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.warning {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  background-color: #2d2d2d;
+  border-radius: 4px;
+  text-align: left;
+  border-left: 4px solid #ffd700;
+}
+
+.warning p {
+  margin: 0;
+  color: #ffd700;
+  font-size: 0.9rem;
+}
+
+.error-message {
+  background-color: rgba(220, 53, 69, 0.2);
+  color: #ff6b6b;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: left;
+  border-left: 4px solid #ff6b6b;
+  font-size: 0.9rem;
+}
+
+.copyright {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #333;
+  font-size: 0.8rem;
+  color: #666;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #222;
+  color: #fff;
+  transition: all 0.3s ease;
+  border: 1px solid #333;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background-color: #333;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.telegram-icon:hover {
+  background-color: #0088cc;
+  border-color: #0088cc;
+}
+
+.twitter-icon:hover {
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+}
