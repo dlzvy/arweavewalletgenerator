@@ -47,14 +47,5 @@ yarn start
 
 This tool uses the [Arweave JS SDK](https://github.com/ArweaveTeam/arweave-js) for cryptographic operations and wallet management. The wallet generation process follows the Arweave protocol specifications for creating RSA key pairs.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-If you encounter any issues or have questions, please open an issue on the GitHub repository.
-
----
 
 Made with ❤️ for the Arweave community
