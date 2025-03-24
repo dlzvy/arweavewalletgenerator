@@ -24,7 +24,7 @@ cd arweavewalletgenerator
 yarn
 
 # Start the development server
-yarn start
+yarn dev
 ```
 
 ## Usage
